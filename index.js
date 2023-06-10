@@ -17,6 +17,8 @@ import {
 } from "obsidian";
 
 import logger from "./log/logger";
+import { SettingsTab } from "./components/settingsTab";
+import { CreateTemplateFormButtonModal } from "./components/modal";
 
 log = logger.child({ module: "index.js" });
 
@@ -35,7 +37,7 @@ export default class MyPlugin extends Plugin {
 			id: "add-template-form-button",
 			name: "Add Template Form Button",
 			editorCallback: (editor, view) => {
-				log.debug("editorCallback", {
+				log.info("editorCallback", {
 					source: "add-template-form-button",
 				});
 			},
@@ -54,50 +56,5 @@ export default class MyPlugin extends Plugin {
 
 	async saveSettings() {
 		await this.saveData(this.settings);
-	}
-}
-
-class SampleModal extends Modal {
-	constructor(app) {
-		super(app);
-	}
-
-	onOpen() {
-		const { contentEl } = this;
-		contentEl.setText("Woah!");
-	}
-
-	onClose() {
-		const { contentEl } = this;
-		contentEl.empty();
-	}
-}
-
-class SampleSettingTab extends PluginSettingTab {
-	constructor(app, plugin) {
-		super(app, plugin);
-		this.plugin = plugin;
-	}
-
-	display() {
-		const { containerEl } = this;
-
-		containerEl.empty();
-
-		containerEl.createEl("h2", { text: "Settings for my awesome plugin." });
-
-		new Setting(containerEl)
-			.setName("Setting #1")
-			.setDesc("It's a secret")
-			.addText((text) =>
-				text
-					.setPlaceholder("Enter your secret")
-					.setValue(this.plugin.settings.mySetting)
-					.onChange(async (value) => {
-						log.debug("Secret: " + value);
-						this.plugin.settings.mySetting = value;
-						await this.plugin.saveSettings();
-					})
-			);
 	}
 }

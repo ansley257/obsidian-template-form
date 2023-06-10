@@ -61,3 +61,18 @@
 {"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:23:55.749Z","version":"0.0.1"}
 {"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:25:46.038Z","version":"0.0.1"}
 {"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:25:46.039Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:24:43.600Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:24:43.603Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T22:24:50.226Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:25:42.243Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:25:42.246Z","version":"0.0.1"}
+{"env":"development","level":"info","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T22:25:48.649Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:29:36.310Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:29:36.312Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:30:08.486Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:30:08.488Z","version":"0.0.1"}
+{"env":"development","level":"info","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T22:30:15.023Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:32:15.221Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:32:15.223Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:32:50.314Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:32:50.316Z","version":"0.0.1"}
