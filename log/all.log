@@ -76,3 +76,13 @@
 {"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:32:15.223Z","version":"0.0.1"}
 {"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:32:50.314Z","version":"0.0.1"}
 {"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:32:50.316Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:34:09.157Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:34:09.159Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:34:27.719Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:34:27.721Z","version":"0.0.1"}
+{"env":"development","level":"info","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T22:34:30.990Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:36:49.779Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:36:49.781Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:57:59.021Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T22:57:59.023Z","version":"0.0.1"}
+{"cta":"Add Template Form Button","env":"development","level":"info","message":"Command Called","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T22:58:02.820Z","version":"0.0.1"}

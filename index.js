@@ -5,22 +5,13 @@ dotenv.config({
 	debug: false,
 });
 
-import {
-	App,
-	Editor,
-	MarkdownView,
-	Modal,
-	Notice,
-	Plugin,
-	PluginSettingTab,
-	Setting,
-} from "obsidian";
+import { Plugin } from "obsidian";
 
 import logger from "./log/logger";
 import { SettingsTab } from "./components/settingsTab";
 import { CreateTemplateFormButtonModal } from "./components/modal";
 
-log = logger.child({ module: "index.js" });
+const log = logger.child({ module: "index.js" });
 
 const DEFAULT_SETTINGS = {
 	mySetting: "default",
@@ -37,9 +28,12 @@ export default class MyPlugin extends Plugin {
 			id: "add-template-form-button",
 			name: "Add Template Form Button",
 			editorCallback: (editor, view) => {
-				log.info("editorCallback", {
+				log.info("Command Called", {
 					source: "add-template-form-button",
+					cta: "Add Template Form Button",
 				});
+
+				new CreateTemplateFormButtonModal(this.app).open();
 			},
 		});
 	}
