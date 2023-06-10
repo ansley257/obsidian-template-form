@@ -1,3 +1,10 @@
+const basePath = app.vault.adapter.basePath;
+import * as dotenv from "dotenv";
+dotenv.config({
+	path: `${basePath}/.obsidian/plugins/ObsidianTemplateForms/.env`,
+	debug: false,
+});
+
 import {
 	App,
 	Editor,
@@ -9,9 +16,9 @@ import {
 	Setting,
 } from "obsidian";
 
-import log from "./logger";
+import logger from "./log/logger";
 
-// Remember to rename these classes and interfaces!
+log = logger.child({ module: "index.js" });
 
 const DEFAULT_SETTINGS = {
 	mySetting: "default",
@@ -19,75 +26,20 @@ const DEFAULT_SETTINGS = {
 
 export default class MyPlugin extends Plugin {
 	async onload() {
+		log.debug("loading plugin");
 		await this.loadSettings();
+		log.debug("loaded settings");
 
-		// This creates an icon in the left ribbon.
-		const ribbonIconEl = this.addRibbonIcon(
-			"dice",
-			"Sample Plugin",
-			(evt) => {
-				// Called when the user clicks the icon.
-				new Notice("This is a notice!");
-			}
-		);
-		// Perform additional things with the ribbon
-		ribbonIconEl.addClass("my-plugin-ribbon-class");
-
-		// This adds a status bar item to the bottom of the app. Does not work on mobile apps.
-		const statusBarItemEl = this.addStatusBarItem();
-		statusBarItemEl.setText("Status Bar Text");
-
-		// This adds a simple command that can be triggered anywhere
-		this.addCommand({
-			id: "open-sample-modal-simple",
-			name: "Open sample modal (simple)",
-			callback: () => {
-				new SampleModal(this.app).open();
-			},
-		});
 		// This adds an editor command that can perform some operation on the current editor instance
 		this.addCommand({
-			id: "sample-editor-command",
-			name: "Sample editor command",
+			id: "add-template-form-button",
+			name: "Add Template Form Button",
 			editorCallback: (editor, view) => {
-				log.info(editor.getSelection());
-				editor.replaceSelection("Sample Editor Command");
+				log.debug("editorCallback", {
+					source: "add-template-form-button",
+				});
 			},
 		});
-		// This adds a complex command that can check whether the current state of the app allows execution of the command
-		this.addCommand({
-			id: "open-sample-modal-complex",
-			name: "Open sample modal (complex)",
-			checkCallback: (checking) => {
-				// Conditions to check
-				const markdownView =
-					this.app.workspace.getActiveViewOfType(MarkdownView);
-				if (markdownView) {
-					// If checking is true, we're simply "checking" if the command can be run.
-					// If checking is false, then we want to actually perform the operation.
-					if (!checking) {
-						new SampleModal(this.app).open();
-					}
-
-					// This command will only show up in Command Palette when the check function returns true
-					return true;
-				}
-			},
-		});
-
-		// This adds a settings tab so the user can configure various aspects of the plugin
-		this.addSettingTab(new SampleSettingTab(this.app, this));
-
-		// If the plugin hooks up any global DOM events (on parts of the app that doesn't belong to this plugin)
-		// Using this function will automatically remove the event listener when this plugin is disabled.
-		this.registerDomEvent(document, "click", (evt) => {
-			log.info("click", evt);
-		});
-
-		// When registering intervals, this function will automatically clear the interval when the plugin is disabled.
-		this.registerInterval(
-			window.setInterval(() => log.info("setInterval"), 5 * 60 * 1000)
-		);
 	}
 
 	onunload() {}
@@ -142,7 +94,7 @@ class SampleSettingTab extends PluginSettingTab {
 					.setPlaceholder("Enter your secret")
 					.setValue(this.plugin.settings.mySetting)
 					.onChange(async (value) => {
-						log.info("Secret: " + value);
+						log.debug("Secret: " + value);
 						this.plugin.settings.mySetting = value;
 						await this.plugin.saveSettings();
 					})

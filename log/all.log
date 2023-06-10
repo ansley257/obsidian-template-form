@@ -1,1 +1,63 @@
 {"isTrusted":true,"level":"info","message":"click","timestamp":"2023-06-10T09:37:58.622Z"}
+{"level":"info","message":"setInterval","timestamp":"2023-06-10T09:39:40.116Z"}
+{"level":"info","message":"","timestamp":"2023-06-10T09:45:27.428Z"}
+{"level":"info","message":"","timestamp":"2023-06-10T09:47:19.193Z"}
+{"level":"info","message":"","timestamp":"2023-06-10T09:48:11.778Z"}
+{"level":"info","message":"","timestamp":"2023-06-10T09:49:01.410Z"}
+{"level":"debug","message":"loading plugin","module":"index.js","timestamp":"2023-06-10T09:56:30.172Z"}
+{"level":"debug","message":"loaded settings","module":"index.js","timestamp":"2023-06-10T09:56:30.174Z"}
+{"level":"debug","message":"loading plugin","module":"index.js","timestamp":"2023-06-10T09:59:53.273Z"}
+{"level":"debug","message":"loaded settings","module":"index.js","timestamp":"2023-06-10T09:59:53.276Z"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","timestamp":"2023-06-10T09:59:55.811Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","timestamp":"2023-06-10T09:59:55.814Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T10:00:21.720Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editor is [object Object]","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T10:00:21.721Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","timestamp":"2023-06-10T10:00:41.939Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","timestamp":"2023-06-10T10:00:41.941Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T10:00:46.131Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editor is [object Object]","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T10:00:46.132Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","timestamp":"2023-06-10T10:01:51.759Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","timestamp":"2023-06-10T10:01:51.763Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T10:01:55.112Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T10:02:15.055Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","timestamp":"2023-06-10T10:02:36.964Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","timestamp":"2023-06-10T10:02:36.966Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T10:02:49.442Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","timestamp":"2023-06-10T10:04:33.832Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","timestamp":"2023-06-10T10:04:33.837Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T10:04:39.992Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","timestamp":"2023-06-10T10:05:36.212Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","timestamp":"2023-06-10T10:05:36.215Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T10:05:43.176Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editor is cm,[object Object],containerEl,[object HTMLDivElement]","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T10:05:43.177Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T10:48:59.096Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editor is cm,[object Object],containerEl,[object HTMLDivElement]","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T10:48:59.097Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T11:01:06.824Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editor is cm,[object Object],containerEl,[object HTMLDivElement]","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T11:01:06.825Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","timestamp":"2023-06-10T11:01:51.939Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","timestamp":"2023-06-10T11:01:51.941Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T11:04:20.068Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T11:04:20.071Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"editorCallback","module":"index.js","service":"template-form","source":"add-template-form-button","timestamp":"2023-06-10T11:04:41.222Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:01:41.261Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:01:41.266Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:02:31.062Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:02:31.065Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:02:33.145Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:02:33.148Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:06:41.547Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:06:41.548Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:14:34.784Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:14:34.785Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:15:27.744Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:15:27.801Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:18:40.013Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:18:40.014Z","version":"0.0.1"}
+{"env":"development","level":"warn","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:20:32.435Z","version":"0.0.1"}
+{"env":"development","level":"warn","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:20:32.437Z","version":"0.0.1"}
+{"env":"development","level":"warn","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:21:39.311Z","version":"0.0.1"}
+{"env":"development","level":"warn","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:21:39.313Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:23:55.748Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:23:55.749Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loading plugin","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:25:46.038Z","version":"0.0.1"}
+{"env":"development","level":"debug","message":"loaded settings","module":"index.js","service":"template-form","source":"nodejs","timestamp":"2023-06-10T21:25:46.039Z","version":"0.0.1"}

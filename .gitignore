@@ -24,3 +24,5 @@ data.json
 # Thinking docs
 planning
 
+# Exclude environment variables
+.env
